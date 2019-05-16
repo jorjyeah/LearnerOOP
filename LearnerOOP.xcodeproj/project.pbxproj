@@ -15,6 +15,7 @@
 		B90FB8B5228BE59600CB495F /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FB8B4228BE59600CB495F /* LearnerModel.swift */; };
 		B90FB8D7228C031500CB495F /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FB8D6228C031500CB495F /* FacilitatorModel.swift */; };
 		B90FB8D9228C098D00CB495F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FB8D8228C098D00CB495F /* RoundedButton.swift */; };
+		B93DC7B6228D69CE00D1A321 /* MenteeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93DC7B5228D69CE00D1A321 /* MenteeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B90FB8B4228BE59600CB495F /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		B90FB8D6228C031500CB495F /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
 		B90FB8D8228C098D00CB495F /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		B93DC7B5228D69CE00D1A321 /* MenteeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +62,26 @@
 		B90FB8A1228BD86000CB495F /* LearnerOOP */ = {
 			isa = PBXGroup;
 			children = (
+				B93DC7B7228D69D800D1A321 /* Model */,
 				B90FB8A2228BD86000CB495F /* AppDelegate.swift */,
 				B90FB8A4228BD86000CB495F /* ViewController.swift */,
 				B90FB8A6228BD86000CB495F /* Main.storyboard */,
 				B90FB8A9228BD86000CB495F /* Assets.xcassets */,
 				B90FB8AB228BD86000CB495F /* LaunchScreen.storyboard */,
 				B90FB8AE228BD86000CB495F /* Info.plist */,
-				B90FB8B4228BE59600CB495F /* LearnerModel.swift */,
-				B90FB8D6228C031500CB495F /* FacilitatorModel.swift */,
 				B90FB8D8228C098D00CB495F /* RoundedButton.swift */,
 			);
 			path = LearnerOOP;
+			sourceTree = "<group>";
+		};
+		B93DC7B7228D69D800D1A321 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B90FB8B4228BE59600CB495F /* LearnerModel.swift */,
+				B90FB8D6228C031500CB495F /* FacilitatorModel.swift */,
+				B93DC7B5228D69CE00D1A321 /* MenteeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B90FB8D7228C031500CB495F /* FacilitatorModel.swift in Sources */,
+				B93DC7B6228D69CE00D1A321 /* MenteeModel.swift in Sources */,
 				B90FB8D9228C098D00CB495F /* RoundedButton.swift in Sources */,
 				B90FB8A5228BD86000CB495F /* ViewController.swift in Sources */,
 				B90FB8B5228BE59600CB495F /* LearnerModel.swift in Sources */,
